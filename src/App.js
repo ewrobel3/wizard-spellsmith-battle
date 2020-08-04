@@ -6,6 +6,8 @@ import CharCreation from './components/CharCreation';
 import Battle from './components/Battle';
 import Error from './components/Error';
 import Navigation from './components/Navigation';
+import P1Char from './components/P1Char';
+import P2Char from './components/P2Char';
  
 class App extends Component {
   render() {
@@ -18,6 +20,8 @@ class App extends Component {
              <Route path="/" component={Welcome} exact/>
              <Route path="/CharCreation" component={CharCreation}/>
              <Route path="/battle" component={Battle}/>
+             <Route path="/P1" component={P1Char} />
+             <Route path="/P2" component={P2Char} />
             <Route component={Error}/>
            </Switch>
         </div> 
