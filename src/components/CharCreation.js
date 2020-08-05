@@ -4,7 +4,7 @@ import { NavLink } from 'react-router-dom';
  
 const CharCreation = () => {
     return (
-       <div id="charcreation">
+       <div class="charcreation">
           <h2>Create your elementals!</h2>
           <div id="players">
              <NavLink class="button" to="/P1">Player 1</NavLink>

@@ -4,7 +4,7 @@ import { NavLink } from 'react-router-dom';
  
 const P2Char = () => {
     return (
-        <div>
+        <div class="charcreation">
             <NavLink id="ccnext" class="button" to="/CharCreation">Done</NavLink>
         </div>
     );
