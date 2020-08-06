@@ -4,6 +4,8 @@ import { NavLink } from 'react-router-dom';
  
 const P1Char = () => {
    const [elemental, setElemental] = useState(localStorage.getItem("P1"));
+   //const navigate = useNavigate();
+   //navigate('/CharCreation', { state:{p1element:elemental.element, p1style:elemental.style, p1skill:elemental.skill}, replace: true });
 
    function construct() {
       let e1 = {...elemental};
@@ -42,10 +44,10 @@ const P1Char = () => {
             {(!elemental || !elemental.constructed) && 
                <button id="constructors" onClick={() => construct()}>
                   <div id="constructorStart">
-                     {"elemental {"}
+                     {"elemental ("}
                   </div>
                   <div id="constructorEnd">
-                     {"}"}
+                     {")"}
                   </div>
                </button>
             }
@@ -133,7 +135,7 @@ const P1Char = () => {
             <div id="podium"></div>
          </div>
          {(elemental && elemental.constructed && elemental.element && elemental.style && elemental.skill) && 
-            <NavLink id="ccnext" class="button" to="/CharCreation">Done</NavLink>
+            <NavLink id="ccnext" class="button" to='/P1Method'>Next: SpellMethods</NavLink>
          }
       </div>
    );

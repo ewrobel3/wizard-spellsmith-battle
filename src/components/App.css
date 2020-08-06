@@ -43,7 +43,6 @@ h1 {
   font-weight: bold;
   display: inline-block;
   margin: 150px;
-  margin-bottom: 0px;
 }
 
 .charcreation {
@@ -191,6 +190,7 @@ h2 {
   font-size: 24px;
   margin: 5px auto;
   border: 2px solid black;
+  cursor: pointer;
 }
 
 .Water {
@@ -201,6 +201,7 @@ h2 {
   font-size: 24px;
   margin: 5px auto;
   border: 2px solid black;
+  cursor: pointer;
 }
 
 .Earth {
@@ -211,6 +212,7 @@ h2 {
   font-size: 24px;
   margin: 5px auto;
   border: 2px solid black;
+  cursor: pointer;
 }
 
 .Air {
@@ -221,6 +223,7 @@ h2 {
   font-size: 24px;
   margin: 5px auto;
   border: 2px solid black;
+  cursor: pointer;
 }
 
 #constructorStart {
@@ -246,6 +249,7 @@ h2 {
 #constructors {
   background-color: transparent;
   border: transparent;
+  cursor: pointer;
 }
 
 #slot {
@@ -267,6 +271,7 @@ h2 {
   font-size: 24px;
   margin: 5px auto;
   border: 2px solid black;
+  cursor: pointer;
 }
 
 .skill {
@@ -277,6 +282,7 @@ h2 {
   font-size: 24px;
   margin: 5px auto;
   border: 2px solid black;
+  cursor: pointer;
 }
 
 #elements {

@@ -3,9 +3,8 @@ import './App.css';
  
 const Battle = () => {
     return (
-       <div>
-          <h1>Battle</h1>
-          <p>Contact US page body content</p>
+       <div className="playerchars">
+          <h1>Battle Coming Soon!</h1>
        </div>
     );
 }

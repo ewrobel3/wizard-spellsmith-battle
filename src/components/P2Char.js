@@ -42,10 +42,10 @@ const P2Char = () => {
             {(!elemental || !elemental.constructed) && 
                <button id="constructors" onClick={() => construct()}>
                   <div id="constructorStart">
-                     {"elemental {"}
+                     {"elemental ("}
                   </div>
                   <div id="constructorEnd">
-                     {"}"}
+                     {")"}
                   </div>
                </button>
             }
